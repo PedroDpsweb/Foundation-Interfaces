@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    text-align:center;
+}
+
+.encabezado{
+    padding-top:40px;
+    font-size:6vh;
+    font-weight: bold;
+    
+}
+
+
+i{
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.ocultar{
+    display: none;
+}
+
+.contenedor{
+    width: 75vh;
+    margin-bottom:20px;
+}
+
+
+
+.menu {
+    background-color: #fefdfe;
+}
+
+.portada{
+    height: 100vh;
+    background-image:url(../img/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+
+
+.hollow{
+    color: white !important;
+    border-color: white !important;
+}
+
+.hollow:hover{
+    background-color: turquoise ! important;
+    border-color: turquoise !important;
+}
+
+.hollow:hover{
+    background-color: aqua;
+}
+
+.nosotros{
+    background-color: #264461;
+    color:white;
+}
+
+
+
+.instructores{
+
+    background-color: rgba(106, 211, 162, 0.7);
+    color:#264461;
+    position: relative;
+}
+
+.instructores::after{
+        content: "";
+        background: url(../img/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      
+}
+
+.instructores img{
+    height: 300px;;
+}
+
+.anuncio{
+    height: 50vh;
+    background-color:#fcf390;
+    color:#264461;
+}
+
+.contacto{
+    
+    background-color: #264461;
+    color:white;
+    
+
+}
+
+.boton{
+    background-color: turquoise;
+}
+
+
+@media (min-width: 640px) {
+
+    .encabezado{
+       
+        font-size:70px;
+        
+        
+    }
+    .ocultar {
+      display: block;
+    }
+    i{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .encabezado{
+      
+        font-size:100px;
+       
+        
+    }
+    
+}
